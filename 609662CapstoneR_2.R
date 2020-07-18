@@ -1,3 +1,5 @@
+###adding comments
+
 ## Setting Working Directory
 setwd("c:\\capstone")
 
@@ -149,7 +151,7 @@ View(df_consumer_electronics)
 head(df_consumer_electronics)
 
 #REmvoign unwanted columns
-df_consumer_electronics<-df_consumer_electronics[ , -which(names(df_consumer_electronics) %in% c("ï..fsn_id","order_id","order_item_id" , "product_analytic_super_category"))]
+df_consumer_electronics<-df_consumer_electronics[ , -which(names(df_consumer_electronics) %in% c("Ã¯..fsn_id","order_id","order_item_id" , "product_analytic_super_category"))]
 
 #Clearing outlier on sla
 count(df_consumer_electronics, 'sla')
